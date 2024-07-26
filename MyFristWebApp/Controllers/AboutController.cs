@@ -2,13 +2,14 @@
 
 namespace MyFristWebApp.Controllers
 {
-    public class StudentsController : Controller
+    public class AboutController : Controller
     {
         public IActionResult Index()
         {
             return View();
         }
-        public IActionResult Subjects()
+
+        public IActionResult ContactUs()
         {
             return View();
         }
