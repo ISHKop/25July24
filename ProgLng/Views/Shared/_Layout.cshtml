@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ProgLng</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ProgLng.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <h1>full strack developer</h1>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li>
+                    <a asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li>
+                    <a asp-area="" asp-controller="Cpp" asp-action="Index">C++</a>
+                </li>
+                <li><a asp-area="" asp-controller="Html" asp-action="Index">Html</a></li>
+                <li><a href="index3.html">java</a></li>
+                <li><a href="index4.html">pyton</a></li>
+            </ul>
+        </nav>
+        <article>
+            @RenderBody()
+        </article>
+    </section>
+
+    <footer>
+        <p>submit</p>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

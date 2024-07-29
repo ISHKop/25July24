@@ -18,6 +18,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\IdealSoftware\Afternoon Batch\25July24\MyFristWebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/About/ContactUs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcQ29udGFjdFVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,6 +44,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/Students/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/Students/Subjects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudHNcU3ViamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/IdealSoftware/Afternoon Batch/25July24/MyFristWebApp/Views/_ViewImports.cshtml]
