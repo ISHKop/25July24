@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
+using ProgLng.Interfaces;
 using ProgLng.Models;
+using ProgLng.Services;
 using System.Diagnostics;
 
 namespace ProgLng.Controllers
@@ -7,14 +9,16 @@ namespace ProgLng.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IMessageService _messageService;
+        public HomeController(ILogger<HomeController> logger, IMessageService messageService)
         {
             _logger = logger;
+            _messageService = messageService;
         }
 
         public IActionResult Index()
         {
+            ViewBag.Message = _messageService.GetMessage();
             return View();
         }
 

@@ -1,7 +1,13 @@
+using ProgLng.Interfaces;
+using ProgLng.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//Dipendancy Injections
+builder.Services.AddTransient<IMessageService, MessageService>(); // Registering the service
 
 var app = builder.Build();
 
